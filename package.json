@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./js/01-labas.js",
+    "object": "nodemon ./js/07-object.js",
+    "typeof": "nodemon ./js/06-typeof.js",
+    "array": "nodemon ./js/05-array.js",
+    "boolean": "nodemon ./js/04-boolean.js",
     "strings": "nodemon ./js/03-strings.js",
-    "booleans": "nodemon ./js/04-booleans.js",
-    "array": "nodemon ./js/05-array.js"
-  },
+    "numbers": "nodemon ./js/02-numbers.js",
+    "labas": "nodemon ./js/01-labas.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [],
   "author": "Pijus",
   "license": "MIT",
