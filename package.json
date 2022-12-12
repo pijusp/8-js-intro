@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./js/01-labas.js",
-    "strings": "nodemon ./js/03-strings.js"
+    "strings": "nodemon ./js/03-strings.js",
+    "booleans": "nodemon ./js/04-booleans.js"
   },
   "keywords": [],
   "author": "Pijus",
