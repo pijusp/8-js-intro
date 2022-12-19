@@ -54,3 +54,4 @@ function reverseString(str) {
 console.log(reverseString('sula'), '-->', 'alus');
 console.log(reverseString('abcdef'), '-->', 'fedcba');
 console.log(reverseString('qwerty'), '-->', 'ytrewq');
+console.log(reverseString('zxcv'), '-->', 'vcxz');
