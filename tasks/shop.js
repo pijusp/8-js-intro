@@ -21,6 +21,15 @@ const prekes = [
 
 function shop() {
 
+    console.log(`MUSU PARDUOTUVE`);
+    console.log(`---------------`);
+    let sum = 0;
+    for (let i = 0; i < prekes.length; i++){
+        console.log(`${prekes[i].name} kainuoja ${prekes[i].price.toFixed(2)} ${valiuta} ir ju turime ${prekes[i].inStock} vienetu `)
+        sum += prekes[i].price * prekes[i].inStock;
+    }
+    console.log(`---------------`);
+    console.log(`Viso asortimento kaina: ${sum.toFixed(2)} ${valiuta}`);
 }
 
 shop(prekes, valiuta);
