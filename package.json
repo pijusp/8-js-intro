@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "biggestNumber": "nodemon ./tasks/biggestNumber.js",
     "rangeDivide": "nodemon ./tasks/rangeDivide.js",
     "reverseString": "nodemon ./tasks/reverseString.js",
     "rangeSum": "nodemon ./tasks/rangeSum.js",
